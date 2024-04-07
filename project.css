@@ -32,7 +32,7 @@
 }
 
 .prjThumnail {
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
 }
 
 .prjInfo {
@@ -83,28 +83,28 @@
 .uiFrameTN {
   background-size: cover;
   background-image: url(img/uiframeThumbnail.png);
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .plvTN {
   background-size: cover;
   background-image: url(img/plvThumbnail.jpg);
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .psTN {
   background-size: cover;
   background-image: url(img/psThumpnail.jpg);
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .vnTN {
   background-size: cover;
   background-image: url(img/valnetThumbnail.jpg);
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
-.plvTN:hover {
+/* .plvTN:hover {
   opacity: 1;
 }
 .uiFrameTN:hover {
@@ -116,4 +116,4 @@
 
 .vnTN:hover {
   opacity: 1;
-}
+} */
