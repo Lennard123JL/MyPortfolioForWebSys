@@ -1,0 +1,205 @@
+.container2 {
+  /* background-color: rgba(86, 86, 86, 0.427); */
+  /backdrop-filter: blur(10px);
+  border-width: 1px 1px 1px 1px;
+  border-color: #2d2d2d;
+  /* border-style: solid; */
+  border-radius: 10px;
+  max-width: 1536px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+/* about */
+
+.aboutCircle {
+  width: 700px;
+  height: 700px;
+  top: 0px;
+  left: 0px;
+}
+.subaboutCircle {
+  top: 232px;
+}
+
+.aboutTopCon {
+  /* background-color: crimson; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutBottomCon {
+  /* background-color: rgb(240, 32, 198); */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutpageLeft {
+  /* background-color: aqua; */
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutpageRight {
+  /* background-color: rgb(99, 25, 169); */
+  width: 900px;
+  height: 100%;
+}
+
+.aboutPfBg {
+  background-color: #838383;
+  width: 360px;
+  height: 360px;
+  transform: rotate(-5deg);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutPic {
+  background-color: rgb(115, 255, 80);
+  background-image: url(img/aboutPf.png);
+  background-size: cover;
+  width: 340px;
+  height: 340px;
+  transform: rotate(9deg);
+  border-radius: 40px;
+  box-shadow: 5px 5px 0px 0px rgba(53, 52, 52, 0.267);
+}
+
+.aboutpageRight h1 {
+  margin: 0px 40px;
+  font-size: 60px;
+  color: #2d2d2d;
+}
+.aboutpageRight p {
+  margin: 7px 40px;
+  color: #2d2d2dcd;
+}
+
+.downloadCvBtn {
+  background-color: #2d2d2d;
+  border-top: 1px;
+  border: solid black;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  width: 260px;
+  border-radius: 10px;
+  border-width: 0px;
+  transition: background-color 0.3s ease;
+}
+
+.clickdownloadCV {
+  transition: background-color 0.3s ease;
+
+  text-decoration: none;
+
+  height: 60px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+.clickdownloadCV img {
+  width: 25px;
+  height: 25px;
+}
+
+.downloadCvBtn :hover .cvIcon path {
+  fill: #2d2d2d;
+  stroke: #2d2d2d;
+}
+
+.downloadCvBtn :hover {
+  color: #2d2d2d;
+  background-color: rgb(226, 226, 226);
+
+  border-radius: 9px;
+}
+
+.downloadCvBtn :active {
+  color: white;
+  background-color: #2d2d2d;
+}
+.downloadCvBtn :active .cvIcon path {
+  fill: white;
+  stroke: white;
+}
+
+/* skills */
+
+.aboutBottomCon h1 {
+  font-size: 50px;
+  color: #2d2d2d;
+}
+.skillList {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.firstRowSkills {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  gap: 30px;
+}
+
+.secondRowSkills {
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  gap: 30px;
+}
+
+.skillSoftware {
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  /* background-color: #838383; */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.skillSoftware:hover {
+  transform: translateY(-0.8em);
+}
+
+.skillSoftware img {
+  /* background-color: #8e5252; */
+  width: 60px;
+  height: 60px;
+}
+
+.skillSoftware i {
+  font-size: 60px;
+}
+
+.skillSoftware h5 {
+  color: #2d2d2db1;
+}

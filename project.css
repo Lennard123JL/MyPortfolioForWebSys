@@ -1,0 +1,119 @@
+.container3 {
+  background-color: rgba(86, 86, 86, 0.033);
+  /backdrop-filter: blur(10px);
+  border-width: 1px 1px 1px 1px;
+  border-color: #2d2d2d;
+  /* border-style: solid; */
+  border-radius: 10px;
+  max-width: 1536px;
+  height: 1400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+/* project */
+
+.container3 h1 {
+  font-size: 60px;
+  color: #2d2d2d;
+  padding: 20px;
+}
+.projectcontainer {
+  display: flex;
+}
+
+.prjThumnail {
+  background-color: darkcyan;
+}
+
+.prjInfo {
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prjInfo h2 {
+  margin: 0px 20px;
+}
+.prjInfo p {
+  text-align: center;
+  margin: 0px 20px;
+}
+
+.prjInfo button {
+  height: 50px;
+  width: 80px;
+  border-radius: 90px;
+  border-width: 0px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.389);
+  color: white;
+  background-color: #2d2d2d;
+  transition: background-color 0.3s ease;
+}
+
+.prjInfo button:hover {
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0);
+  border-width: 3px;
+  color: #2d2d2d;
+  background-color: #fafafa;
+}
+
+.prjInfo button:active {
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0);
+  color: white;
+  background-color: #2d2d2d;
+}
+
+.prjRatio {
+  width: 550px;
+  height: 300px;
+}
+
+.uiFrameTN {
+  background-size: cover;
+  background-image: url(img/uiframeThumbnail.png);
+  opacity: 0.5;
+}
+
+.plvTN {
+  background-size: cover;
+  background-image: url(img/plvThumbnail.jpg);
+  opacity: 0.5;
+}
+
+.psTN {
+  background-size: cover;
+  background-image: url(img/psThumpnail.jpg);
+  opacity: 0.5;
+}
+
+.vnTN {
+  background-size: cover;
+  background-image: url(img/valnetThumbnail.jpg);
+  opacity: 0.5;
+}
+
+.plvTN:hover {
+  opacity: 1;
+}
+.uiFrameTN:hover {
+  opacity: 1;
+}
+.psTN:hover {
+  opacity: 1;
+}
+
+.vnTN:hover {
+  opacity: 1;
+}

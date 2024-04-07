@@ -1,0 +1,463 @@
+@media (max-width: 1536px) {
+  .container1 {
+    max-width: 1280px;
+  }
+  .container2 {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container1 {
+    max-width: 1024px;
+  }
+  .container2 {
+    max-width: 1024px;
+  }
+
+  .navigationBar a {
+    font-size: 20px;
+  }
+  .pfHomepageContainer {
+    height: 700px;
+    width: 400px;
+  }
+
+  .subsquare1 {
+    height: 360px;
+    width: 200px;
+    top: 85px;
+  }
+
+  .subsquare2 {
+    height: 300px;
+    width: 200px;
+    bottom: 77px;
+  }
+  .PicHomepage {
+    height: 430px;
+    width: 300px;
+  }
+
+  .aboutTopCon {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container1 {
+    max-width: 768px;
+    height: 750px;
+  }
+  .container2 {
+    max-width: 768px;
+    height: 950px;
+  }
+
+  .navigationBar a {
+    font-size: 16px;
+  }
+
+  .HomePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .tittleHP h1 {
+    font-size: 40px;
+  }
+  .role h2 {
+    font-size: 20px;
+  }
+
+  .pfHomepageContainer {
+    height: 380px;
+    width: 400px;
+  }
+
+  .subsquare1 {
+    height: 280px;
+    width: 200px;
+    top: 85px;
+  }
+
+  .subsquare2 {
+    height: 300px;
+    width: 200px;
+    bottom: 77px;
+  }
+  .PicHomepage {
+    background-position-x: -20px;
+    height: 330px;
+    width: 300px;
+  }
+
+  .circleContainer {
+    right: 140px;
+    top: -10px;
+  }
+
+  .aboutTopCon {
+    height: 600px;
+  }
+
+  .prjRatio {
+    width: 450px;
+    height: 300px;
+  }
+
+  .plvTN {
+    background-position-x: -30px;
+  }
+  .uiFrameTN {
+    background-position-x: -40px;
+  }
+
+  .vnTN {
+    background-position-x: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    max-width: 640px;
+  }
+  .container2 {
+    max-width: 640px;
+    height: 800px;
+  }
+
+  .container4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1230px;
+    gap: 20px;
+  }
+
+  .hideOnMObile {
+    display: none;
+  }
+
+  .sideNavBar {
+    width: 100%;
+  }
+  .menu {
+    display: flex;
+  }
+  .btnHome {
+    width: 250px;
+    height: 60px;
+  }
+  .clickbtnHP {
+    width: 250px;
+    height: 60px;
+  }
+  .clickbtnHP img {
+    width: 14px;
+  }
+
+  .aboutTopCon {
+    height: 600px;
+    flex-direction: column;
+  }
+
+  .aboutPfBg {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .aboutPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .aboutpageRight {
+    width: 660px;
+  }
+  .aboutpageLeft {
+    width: 500px;
+  }
+
+  .aboutBottomCon {
+    height: 200px;
+  }
+  .aboutpageRight h1 {
+    text-align: center;
+  }
+  .aboutpageRight p {
+    text-align: center;
+  }
+
+  .aboutBottomCon {
+    margin-top: 30px;
+  }
+
+  .prjRatio {
+    width: 350px;
+    height: 300px;
+  }
+
+  .plvTN {
+    background-position-x: -90px;
+  }
+  .uiFrameTN {
+    background-position-x: -80px;
+  }
+
+  .vnTN {
+    background-position-x: -110px;
+  }
+
+  .prjThumnail {
+    display: none;
+  }
+
+  .prjInfo {
+    background-color: aqua;
+    width: 500px;
+  }
+
+  .vnInf {
+    background-image: url(img/valnetThumbnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .psInf {
+    background-image: url(img/psThumpnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .uiInf {
+    background-image: url(img/uiframeThumbnaildark.png);
+    color: white;
+    background-size: cover;
+  }
+
+  .plvInf {
+    background-image: url(img/plvThumbnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .prjInfo button {
+    height: 50px;
+    width: 80px;
+    border-radius: 90px;
+    border-width: 0px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.389);
+    color: #2d2d2d;
+    background-color: #ffffff;
+  }
+
+  .prjInfo button:active {
+    color: #ffffff;
+    background-color: #2d2d2d;
+  }
+
+  .leftContact {
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+
+  .leftContact p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .container1 {
+    max-width: 475px;
+    margin-top: 80px;
+  }
+  .container2 {
+    max-width: 475px;
+    height: 1090px;
+  }
+
+  .homepageLeft {
+    width: 450px;
+  }
+
+  .btnHome {
+    width: 200px;
+    height: 60px;
+  }
+  .clickbtnHP {
+    width: 200px;
+    height: 60px;
+  }
+  .clickbtnHP img {
+    width: 14px;
+  }
+  .circleContainer {
+    right: -50px;
+  }
+
+  .aboutpageRight {
+    width: 480px;
+  }
+  .aboutpageLeft {
+    width: 500px;
+  }
+
+  .aboutpageRight {
+    height: 700px;
+  }
+
+  .aboutTopCon {
+    margin-top: 50px;
+  }
+  .aboutBottomCon {
+    margin-top: 170px;
+    height: 200px;
+  }
+  .aboutpageRight h1 {
+    text-align: center;
+    font: 8px;
+  }
+  .aboutpageRight p {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .prjRatio {
+    width: 250px;
+    height: 200px;
+  }
+  .prjInfo h2 {
+    font-size: 25px;
+  }
+  .prjInfo p {
+    font-size: 12px;
+  }
+
+  .prjRatio {
+    width: 330px;
+    height: 300px;
+  }
+
+  .prjThumnail {
+    display: none;
+  }
+
+  .prjInfo {
+    background-color: aqua;
+    width: 500px;
+  }
+
+  .vnInf {
+    background-image: url(img/valnetThumbnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .psInf {
+    background-image: url(img/psThumpnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .uiInf {
+    background-image: url(img/uiframeThumbnaildark.png);
+    color: white;
+    background-size: cover;
+  }
+
+  .plvInf {
+    background-image: url(img/plvThumbnaildark.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .prjInfo button {
+    height: 50px;
+    width: 80px;
+    border-radius: 90px;
+    border-width: 0px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.389);
+    color: #2d2d2d;
+    background-color: #ffffff;
+  }
+
+  .prjInfo button:active {
+    color: #ffffff;
+    background-color: #2d2d2d;
+  }
+}
+
+@media (max-width: 475px) {
+  .container1 {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .container2 {
+    width: 100%;
+  }
+  .prjRatio {
+    width: 210px;
+    height: 200px;
+  }
+  .prjInfo h2 {
+    font-size: 15px;
+  }
+  .prjInfo p {
+    font-size: 12px;
+  }
+
+  .firstRowSkills {
+    gap: 10px;
+  }
+  .secondRowSkills {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 474px) {
+  .container1 {
+    margin-left: 30px;
+  }
+  .container2 {
+    margin-left: 40px;
+  }
+  .container3 {
+    margin-left: 60px;
+    width: 400px;
+    height: 970px;
+    /* background-color: aqua; */
+  }
+  .container4 {
+    margin-left: 90px;
+    /* background-color: blue; */
+  }
+
+  .leftContact p {
+    margin: 0px 80px;
+  }
+
+  .prjRatio {
+    width: 530px;
+    height: 200px;
+  }
+
+  body {
+    overflow-x: hidden;
+    
+  }
+  .circleContainer {
+    display: none;
+  }
+
+  .contentNav {
+    width: 550px;
+  }
+
+  footer {
+    width: 550px;
+  }
+}

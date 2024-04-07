@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Stem Medium";
+}
+
+
+
+button{
+
+  font-family: "Stem Medium";
+}
+
+
+
+
+html{
+
+  scroll-behavior: smooth;
+  animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+
+    
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+  
+
+
+@font-face {
+  font-family: "Stem Medium";
+  src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot");
+  src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.svg#Stem Medium")format("svg");
+}
+
+  
+  
+
+
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: stem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+main{
+  /* background-color: #aaaaaa; */
+}
+
+
+.navigationBar {
+  color: aliceblue;
+  background-color: #f5fffa
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  font-size: 17px;
+}
+
+.contentNav {
+  /* background-color: aqua; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.contentNav li {
+  height: 70px;
+  
+
+  
+}
+
+.navigationBar a {
+  /* background-color: burlywood; */
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-weight: 900;
+  
+}
+
+.navigationBar a:hover {
+  background-color: #bebebe;
+}
+
+.navigationBar a:active {
+  background-color: rgb(238, 238, 238);
+}
+
+
+
+.navigationList{
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  /* background-color: chartreuse; */
+  width: 800px;
+}
+
+
+
+
+.navigationAccounts{
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.accList a{
+  background-color: brown;
+  
+}
+
+.logo img {
+  height: 50px;
+}
+
+.sideNavBar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #f3f3f3;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sideNavBar li {
+  height: 70px;
+}
+
+.sideNavBar a:hover {
+  border-radius: 0px 50px 50px 0px;
+  background-color: #b4b4b4;
+  color: black;
+}
+.sideNavBar a:active {
+  background-color: rgb(145, 145, 145);
+}
+
+.menu {
+  display: none;
+}
+
+.menuIcon{
+
+  width: 50px;
+}
+
+/*CONTAINER1*/
+
+.container1 {
+  /* background-color: rgba(255, 255, 255, 0.123); */
+  /* backdrop-filter: blur(10px); */
+  border-width: 1px 1px 1px 1px;
+  border-color: #2d2d2d;
+  /* border-style: solid; */
+  border-radius: 10px ;
+  max-width: 1536px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  gap: 20px;
+
+  animation: slideInBottomToTop 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideInBottomToTop {
+  from {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* HOmepage */
+
+.HomePage{
+
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.homepageLeft{
+  /* background-color: rgb(207, 120, 120); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepageRight{
+/* background-color: #75757583; */
+width: 130%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.circleContainer{
+  background-color: #eeeeee;
+  height: 700px;
+  width: 700px;
+  border-radius: 900px;
+  position: absolute;
+  right: 10px;
+  z-index: -1;
+}
+.subcircle{
+  border-radius: 500px;
+  background-color: #e5e4e4;
+  display: flex;
+  position: absolute;
+  left: 350px;
+  bottom: -70px;
+  width: 400px;
+  height: 400px;
+  
+}
+
+.pfHomepageContainer{
+  /* background-color: darkmagenta; */
+  height: 700px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+.squareBehind{
+  background-color: transparent;
+  border: 5px solid black ;
+  
+
+}
+.subsquare1{
+  height: 560px;
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+
+}
+
+.subsquare2{
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  
+}
+
+
+.PicHomepage{
+  /* background-color: deeppink; */
+  background-image: url(img/pf3.jpg);
+  background-position-x: -60px;
+  
+  background-size: cover;
+  position: absolute;
+  height: 630px;
+  width: 500px;
+
+}
+
+
+
+
+.tittleHP{
+  /* background-color: cadetblue; */
+  padding: 0px 20px
+}
+.tittleHP h1{
+  
+  font-size: 50px;
+}
+
+.role{
+  /* background-color: brown; */
+  padding: 0px 20px
+}
+
+.role h2{
+  font-size: 40px;
+  color: #757575;
+}
+.homepageInfo{
+
+  /* background-color: blueviolet; */
+  padding: 20px 20px;
+}
+
+.bookAndAbout{
+
+   /* background-color: cornflowerblue;  */
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bookAndAboutList{
+
+  /* background-color: bisque; */
+  display: flex;
+  gap: 20px;
+}
+
+.accountList{
+  /* background-color: rgb(37, 133, 136);  */
+  display: flex;
+  gap: 20px;
+  
+}
+
+.accountList button{
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  height: 60px;
+  width: 60px;
+  padding: 30px;
+  transition: background-color 0.3s ease; 
+}
+
+.accountClick{
+  /* background-color: chocolate; */
+  height: 60px;
+  width: 60px;
+  display: flex;
+  text-decoration: none;
+  
+
+}
+
+.accountClick img{
+  /* background-color: chocolate; */
+
+  width: 58px;
+}
+
+
+
+.accountClick svg{
+
+  /* background-color: chartreuse; */
+}
+
+.accountICon path{
+
+  fill:#949494 ;
+}
+
+
+button :hover.accountICon path{
+
+  
+  fill: #2d2d2d;
+  
+}
+
+
+
+
+
+.btnHome{
+
+  width: 290px;
+  height: 80px;
+  border-radius:5px;
+  font-family: stemMedium;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.bookbtn{
+  background-color: #2d2d2d;
+  font-family: stemMedium;
+  transition: background-color 0.3s ease;
+}
+
+.bookbtn:hover {
+  background-color: white;
+  border-width: 3px;
+  
+}
+.clickbookHP:hover{
+
+  color: #2d2d2d;
+}
+
+.bookbtn:hover .iconBtn path {
+  fill: #2d2d2d; 
+}
+
+.bookbtn:active .iconBtn path {
+  fill: #ffffff; 
+}
+.clickbookHP:active{
+
+  color: #ffffff;
+}
+.bookbtn:active {
+  background-color: #2d2d2d;
+  border-width: 3px;
+  
+}
+
+
+.aboutbtn{
+
+  background-color: #cfcece;
+  border-width: 0px;
+  font-family: stemMedium;
+  transition: background-color 0.3s ease;
+}
+
+.aboutbtn :hover{
+  transition: background-color 0.3s ease;
+  background-color: #2d2d2d;
+  border-radius: 5px;
+}
+
+.aboutbtn :active{
+  
+  background-color: #cfcece;
+  
+}
+
+
+.clickbtnHP{
+  /* background-color: blue; */
+  font-size: 17px;
+  color: white;
+  width: 290px;
+  height: 80px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 10px;
+  
+  
+
+}
+
+.iconBtn{
+/* background-color: blueviolet; */
+  width: 20px;
+  display: flex;
+}
+
+
+
+  /* Footer */
+
+  footer{
+    margin-top: 20PX;
+    background-color: #2d2d2d;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  footer div{
+
+    display: flex;
+    gap: 6px;
+  }
+
+  footer img{
+
+    width: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+

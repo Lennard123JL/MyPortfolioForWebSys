@@ -1,0 +1,43 @@
+.frontEndBtn{
+
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+
+
+
+.frontEndBtn:hover{
+    
+    background-color: #777777;
+    font-size: 1.5em;
+}
+
+.uiuxDesBtn{
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+.uiuxDesBtn:hover{
+    
+    background-color: #777777;
+    font-size: 1.5em;
+}
+
+
+
+
+
+.graphicDesBtn{
+
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.graphicDesBtn:hover{
+    background-color: #777777;
+    font-size: 1.5em;
+
+}
+
+
