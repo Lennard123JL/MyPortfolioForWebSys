@@ -18,6 +18,19 @@
   align-items: center;
   position: relative;
   flex-direction: column;
+
+  animation: slideInBottomToTop 2s ease forwards;
+  opacity: 0;
+}
+@keyframes slideInBottomToTop {
+  from {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 /* project */

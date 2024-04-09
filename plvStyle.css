@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Stem Medium";
+  }
+  html{
+    font-family: "Stem Medium";
+    scroll-behavior: smooth;
+    animation: fadeIn 1s ease-in-out forwards;
+      opacity: 0;
+  
+      
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  @font-face {
+    font-family: "Stem Medium";
+    src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot");
+    src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.svg#Stem Medium")format("svg");
+  }
+  body {
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: stem;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  header{
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+
+  .back button{
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+  }

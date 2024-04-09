@@ -15,7 +15,7 @@ button{
 
 
 html{
-
+  font-family: "Stem Medium";
   scroll-behavior: smooth;
   animation: fadeIn 1s ease-in-out forwards;
     opacity: 0;
@@ -509,6 +509,19 @@ button :hover.accountICon path{
     justify-content: center;
     align-items: center;
     color: white;
+
+    animation: slideInBottomToTop 3s ease forwards;
+  opacity: 0;
+  }
+  @keyframes slideInBottomToTop {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
   }
 
   footer div{
