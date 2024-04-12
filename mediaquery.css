@@ -42,6 +42,11 @@
   .aboutTopCon {
     height: 500px;
   }
+
+  
+
+
+
 }
 
 @media (max-width: 1024px) {
@@ -251,7 +256,7 @@
     border-width: 0px;
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.389);
     color: #2d2d2d;
-    background-color: #ffffff;
+    background-color: #2d2d2d;
   }
 
   .prjInfo button:active {
@@ -382,7 +387,7 @@
     border-width: 0px;
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.389);
     color: #2d2d2d;
-    background-color: #ffffff;
+    background-color: #424242;
   }
 
   .prjInfo button:active {

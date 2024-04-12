@@ -409,6 +409,7 @@ button :hover.accountICon path{
 
 
 
+
 .btnHome{
 
   width: 290px;
@@ -523,6 +524,10 @@ button :hover.accountICon path{
         transform: translateY(0);
     }
   }
+
+ 
+
+  
 
   footer div{
 

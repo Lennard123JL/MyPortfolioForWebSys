@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Stem Medium";
+  }
+  html {
+    font-family: "Stem Medium";
+    scroll-behavior: smooth;
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @font-face {
+    font-family: "Stem Medium";
+    src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot");
+    src: url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff2")
+        format("woff2"),
+      url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff")
+        format("woff"),
+      url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.ttf")
+        format("truetype"),
+      url("https://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.svg#Stem Medium")
+        format("svg");
+  }
+  body {
+    min-height: 200vh;
+    background-color: #2d2d2d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: stem;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  header {
+    /* background-color: rgb(22, 22, 197); */
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* backbutton in projects */
+.back button {
+    width: 120px;
+    height: 90px;
+    margin-left: 20px;
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .back button :hover{
+    
+    background-color: rgb(131, 131, 131);
+    
+  }
+
+  button a{
+
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+  
+  }
+  
+  .backICon svg{
+  
+    width: 40px;
+    height: 50px;
+  }
+
+  .titleProject {
+    /* background-color: chartreuse; */
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+
+  /* container */
+
+  .containerPS{
+
+    background-color: #2d2d2d;
+  backdrop-filter: blur(10px);
+  border-width: 1px 1px 1px 1px;
+  border-color: #2d2d2d;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 1336px;
+  height: 2590px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+
+  .grid{
+    
+    display: grid;
+    grid-template-columns: 
+    70px 70px 70px 70px 70px 70px
+    30px
+    70px 70px 70px 70px 70px 70px
+    30px
+    70px 70px 70px 70px 70px 70px
+    ;
+    grid-template-rows: 
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 30px 30px 30px 30px
+    30px
+    30px 30px 
+    ;
+
+  }
+
+  .ps1{ background-color: blue;
+  grid-row: 1/26;
+  grid-column: 1/7;
+  background-image: url(PSImg/kisame.jpg);
+  background-size: cover;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+  animation: slideInBottomToTop 1s ease forwards;
+  opacity: 0;
+  }
+  .ps2{background-color: aqua;
+    grid-row: 27/40;
+    grid-column: 1/7;
+    background-image: url(PSImg/bombaNa.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps3{background-color: chocolate;
+    grid-row: 41/64;
+    grid-column: 1/7;
+    background-image: url(PSImg/MENU\ JL.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps4{background-color: cornflowerblue;
+    grid-row: 65/86;
+    grid-column: 1/7;
+    background-image: url(PSImg/Anime_Practice_color_IG.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1s ease forwards;
+  opacity: 0;
+    
+  }
+  .ps5{background-color: darkslategray;
+    grid-row: 1/18;
+    grid-column: 8/14 ;
+    background-image: url(PSImg/iluvpinkfloyd.png);
+    background-size: cover;
+    background-position-y: -8px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.3s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps6{background-color: firebrick;
+    grid-row: 19/31;
+    grid-column: 8/14 ;
+    background-image: url(PSImg/youneedadrink.jpg);
+    background-size: cover;
+    background-position-x: -78px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.3s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps7{background-color: indigo;
+    grid-row: 32/46;
+    grid-column: 8/14 ;
+    background-image: url(PSImg/stay_behind.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.3s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps8{background-color: lightcoral;
+    grid-row: 47/ 66;
+    grid-column: 8/14 ;
+    background-image: url(PSImg/heatIndexSaPilipinas.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.3s ease forwards;
+  opacity: 0;
+  }
+  .ps9{background-color: magenta;
+    grid-row: 67/ 86;
+    grid-column: 8/14 ;
+    background-image: url(PSImg/child.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.3s ease forwards;
+  opacity: 0;
+  }
+  .ps10{background-color: rgb(66, 5, 66);
+    grid-row: 1/ 21;
+    grid-column: 15/21;
+    background-image: url(PSImg/leonardoD.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.6s ease forwards;
+  opacity: 0;
+  
+  }
+  .ps11{background-color: grey;
+  
+    grid-row: 22/ 34;
+    grid-column: 15/21;
+    background-image: url(PSImg/show2.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.6s ease forwards;
+  opacity: 0;
+  }
+  .ps12{background-color: yellowgreen;
+    grid-row: 35/ 48;
+    grid-column: 15/21;
+    background-image: url(PSImg/amnesia.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+    
+    animation: slideInBottomToTop 1.6s ease forwards;
+  opacity: 0;
+  }
+  .ps13{background-color: yellow;
+    grid-row: 49/ 67;
+    grid-column: 15/21;
+    background-image: url(PSImg/jotaro.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.6s ease forwards;
+  opacity: 0;
+  }
+  .ps14{background-color: tomato;
+    grid-row: 68/ 86;
+    grid-column: 15/21;
+    background-image: url(PSImg/witcher1312341.png);
+    background-size: cover;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+
+    animation: slideInBottomToTop 1.6s ease forwards;
+  opacity: 0;
+  }
+  
+  @keyframes slideInBottomToTop {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  footer div{
+
+    display: flex;
+    gap: 6px;
+  }
+
+  footer img{
+
+    width: 20px;
+  }
+

@@ -47,12 +47,37 @@ header {
   display: flex;
   justify-content: flex-start;
 }
-
+/* backbutton in projects */
 .back button {
   width: 120px;
-  height: 60px;
+  height: 90px;
   margin-left: 20px;
+  background-color: transparent;
+  border-width: 0px;
 }
+.back button :hover{
+  
+  background-color: rgb(131, 131, 131);
+  
+}
+
+button a{
+
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+
+}
+
+.backICon svg{
+
+  width: 40px;
+  height: 50px;
+}
+
+
 
 .titleProject {
   /* background-color: chartreuse; */
@@ -77,6 +102,7 @@ header {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: flex;
+  
   justify-content: center;
   gap: 20px;
 }
@@ -113,11 +139,14 @@ header {
 }
 
 .leftCOn {
+  /* background-color: cadetblue; */
   margin: 40px 0px;
   width: 500px;
   background-size: cover;
   border-radius: 5px;
-}
+  display: flex;
+  justify-content: center;
+} 
 .RightCon {
   margin: 40px 0px;
   /* background-color: aquamarine; */
@@ -183,15 +212,7 @@ header {
   gap: 9px;
 }
 
-.headPrj {
-  color: #2d2d2dbd;
-  font-size: 16px;
-}
 
-.bottomPrj {
-  color: #2d2d2d;
-  font-size: 16px;
-}
 
 /* footer */
 footer {
@@ -211,4 +232,71 @@ footer div {
 
 footer img {
   width: 20px;
+}
+
+
+/* mediaquery */
+
+@media (max-width: 1536px) {
+   
+}
+
+
+
+@media (max-width: 1024px) {
+  
+  .containerPrj1{
+    max-width: 836px;
+  }
+  .leftCOn{
+    width: 500px;
+  }
+
+  .RightCon{
+
+    font-size: 13px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .containerPrj1{
+    
+    position: relative;
+    /* background-color: rgb(255, 228, 196); */
+    width: 600px;
+    
+  }
+
+
+  
+  .leftCOn{
+    /* background-color: cadetblue; */
+  margin: 40px 0px;
+  width: 500px;
+  
+
+    
+    
+  }
+
+  .RightCon{
+  width: 600px;
+}
+
+
+
+
+
+
+}
+ 
+
+@media (max-width: 640px) {
+  
+}
+
+@media (max-width: 475px) {
+  
 }
